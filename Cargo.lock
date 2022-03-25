@@ -3,6 +3,13 @@
 version = 3
 
 [[package]]
+name = "Umirag"
+version = "0.1.0"
+dependencies = [
+ "ggez",
+]
+
+[[package]]
 name = "ab_glyph"
 version = "0.2.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -824,13 +831,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f2d38164670920cfb7491bc0cf6f49f0554bd1c44cdbedc6c78d2bf91691ff5e"
 dependencies = [
  "gl_generator",
-]
-
-[[package]]
-name = "ggez"
-version = "0.1.0"
-dependencies = [
- "ggez 0.7.0",
 ]
 
 [[package]]
