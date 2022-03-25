@@ -3,7 +3,7 @@ use ggez::graphics::{self, Color};
 use ggez::event::{self, EventHandler};
 
 fn main() {
-    let (mut ctx, event_loop) = ContextBuilder::new("my_game", "Fares Setbel")
+    let (mut ctx, event_loop) = ContextBuilder::new("Umirag", "Fares Setbel")
     // Make a Context.
         .build()
         .expect("aieee, could not create ggez context!");
